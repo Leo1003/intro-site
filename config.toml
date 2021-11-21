@@ -96,9 +96,7 @@ smart_punctuation = false
 navbar_items = [
     { code = "zh_tw", nav_items = [
         { url = "$BASE_URL/", name = "Home" },
-        { url = "$BASE_URL/posts", name = "Posts" },
-        { url = "$BASE_URL/docs", name = "Docs" },
-        { url = "$BASE_URL/tags", name = "Tags" },
+        { url = "$BASE_URL/intros", name = "Intros" },
         { url = "https://blog.libralight.dev", name = "Blog" },
     ]},
 ]
