@@ -60,7 +60,7 @@ taxonomies = [
 ]
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+build_search_index = false
 
 [markdown]
 # Whether to do syntax highlighting
@@ -93,3 +93,53 @@ external_links_no_referrer = false
 smart_punctuation = false
 
 [extra]
+navbar_items = [
+    { code = "zh_tw", nav_items = [
+        { url = "$BASE_URL/", name = "Home" },
+        { url = "$BASE_URL/posts", name = "Posts" },
+        { url = "$BASE_URL/docs", name = "Docs" },
+        { url = "$BASE_URL/tags", name = "Tags" },
+        { url = "https://blog.libralight.dev", name = "Blog" },
+    ]},
+]
+
+# Add links to favicon, you can use https://realfavicongenerator.net/ to generate favicon for your site
+[extra.favicon]
+favicon_16x16 = "/icons/favicon-16x16.png"
+favicon_32x32 = "/icons/favicon-32x32.png"
+apple_touch_icon = "/icons/apple-touch-icon.png"
+safari_pinned_tab = "/icons/safari-pinned-tab.svg"
+webmanifest = "/icons/site.webmanifest"
+
+# Author details
+[extra.author]
+name = "陳少甫"
+avatar = "/images/avatar.jpg"
+
+# Social links
+[extra.social]
+email = "leo881003@gmail.com"
+facebook = "shaofuc"
+github = "Leo1003"
+#gitlab = "<gitlab_username>"
+keybase = "shfchen"
+linkedin = "少甫-陳-3b0b3a20a"
+stackoverflow = "6321047"
+#twitter = "<twitter_username>"
+instagram = "leoshijb"
+#behance = "<behance_username>"
+#google_scholar = "<googlescholar_userid>"
+#orcid = "<orcid_userid>"
+
+# To add google analytics
+[extra.analytics]
+#google = "<your_gtag>"
+
+# To add disqus comments
+[extra.commenting]
+#disqus = "<your_disqus_shortname>"
+
+# To enable mapbox maps
+[extra.mapbox]
+#access_token = "<your_access_token>"
+
